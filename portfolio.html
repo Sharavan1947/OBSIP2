@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>personal Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+              $("#openImageBtn").click(function(){
+                $("#imageLink")[0].click();
+              });
+            });
+        </script>            
+</head>
+<body>
+    <nav class="flex justify-between">
+        <div class="logo1 font-bold flex items-center text-blue">Subham kumar</div>
+        <ul class="navbar flex items-center">
+            <li id="hover">Home</li>
+            <li id="hover">About</li>
+            <li id="hover">Services</li>
+            <li id="hover">Contact Us</li>
+            <li>
+                <button class="btn" id="openImageBtn">Resume</button>
+                <a id="imageLink" href="/SUBHAM KUMAR(resume)_page-0001.jpg" target="_blank" style="display:none;"></a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <img src="/image1.jpg" alt="Profile Picture">
+        <h1>Subham Kumar</h1>
+        <br>
+        <p>Email-subhamkuamr790630@gmail.com <br>
+            Contact no-(+91)7906308904
+        </p>
+    </header>
+    <main>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <br>
+            <div class="project">
+                <div >
+                    <a href="#">
+                        <img src="/personala-personal-website-template.jpg" class="p1">
+                        <br>
+                        <br>
+                        Personal website
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="/gym website.png" class="p1">
+                        <br>
+                        <br>
+                        Gym website 
+                    </a>
+                </div>
+                <div >
+                    <a href="#">
+                        <img src="/hotel-management-system.webp" class="p1">
+                        <br>
+                        <br>
+                        Hotel Management System
+                    </a>
+                </div>
+                <div >
+                    <a href="#">
+                        <img src="/calculator.png" class="p1" >
+                        <br>
+                        <br>
+                        Calculator
+                    </a>
+                </div>
+                <div >
+                    <a href="#">
+                        <img src="/library management system.jpeg" class="p1" >
+                        <br>
+                        <br>
+                        Library Management system
+                    </a>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="about">
+            <h2 class="aboutme">About Me</h2>
+            <br>
+            <p>“Hi, My name is Subham Kumar. ​I’am currently persuing my Bachelors in Technology with Computer Science stream from Dev Bhoomi Uttrakhand University with 9 CGPA. Also, I did my 12th & 10th from CBSE Board in the year 2019 and 2021 respectively. Though I am currently staying in Dehradun – I was born and brought up in Agra, Uttar Pradesh, and did my schooling from there. Considering my family background details – we’re 5 members in the family. Apart from my parents, I have a sibling – an elder sister and younger sister.
+
+                 I had 2 internships as well in this particular domain where along with core technical things I also learned organizational ethics and discipline. Moreover, I also did 2 successful individual projects *on the particular technology* in my college tenure. *You can also opt to brief the project & internship details here.</p>
+        </section>
+        <hr>
+        <section id="skills">
+            <h2 class="skills">Skills</h2>
+            <br>
+            <ul>
+                <li><img src="/html logo.png" id="logo"></li>
+                <li><img src="/css logo.png" id="logo"></li>
+                <li><img src="/JavaScript-logo.png" id="logo"></li>
+                <li><img src="/python logo.jpg" id="logo"></li>
+                <li><img src="/sql logo.svg" id="logo"></li>
+                <li><img src="/Java-Emblem.jpg" id="logo"></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Subham Kumar. All rights reserved.</p>
+    </footer>
+</body>
+</html>

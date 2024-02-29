@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+     
+}
+#hover:hover{
+    color: blueviolet;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background: url(/white\ baground.jpeg);
+    background-size: cover;
+}
+#portfolio{
+    text-align: center; 
+    padding-top: 20px;
+}
+#about{
+    text-align: center;
+}
+#skills{
+    text-align: center;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    /* background: url(/Subham\ Kumar\ bg.jpg);
+    background-size: cover; */
+    background: url(/bagroundwhite.jpg);
+    background-size: cover;
+}
+.project{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(195, 18, 244);
+    
+}
+
+.p1{
+    background-color: #69acb8;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    /* border: 10px solid grey; */
+}
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+li {
+    margin-bottom: 10px;
+   
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #0077cc;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    background: url(/white\ baground.jpeg);
+    background-size: cover;
+}
+#logo{
+  
+    height: 100px;
+    width: 100px;
+}
+.flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.logo1{
+    font-size: 1.3rem;
+    padding-left: 40px;
+}
+.font-bold{
+    font-weight: bolder;
+}
+.items-center{
+    align-items: center;
+}
+.text-blue{
+    color: rgb(156, 56, 227);;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.btn{
+    padding:7px 12px;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(144, 0, 239);
+}
+.btn:hover{
+    background-color: crimson;
+}
+.aboutme{
+    padding-top: 35px;
+}
+.skills{
+    padding-top: 35px;
+}
